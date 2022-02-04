@@ -1,11 +1,11 @@
 import each from 'jest-each';
-import { Wordle } from '../Converter';
+import { Wordle } from '../Wordle';
 import { Blueprint } from '../types';
 
 /**
  * @author andrsdt
  */
-describe('Converter functionality', () => {
+describe('Wordle Converter functionality', () => {
   let output: Blueprint;
 
   beforeAll(() => {
